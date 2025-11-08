@@ -1,4 +1,8 @@
-fastapi==0.115.0
-pandas==2.2.3
-streamlit==1.39.0
-uvicorn==0.30.6
+fastapi
+uvicorn
+streamlit
+pandas
+numpy
+plotly
+yfinance
+
