@@ -2,11 +2,10 @@
 
 A full-stack financial analytics platform for real-time NSE/BSE stock data. Built with Python, FastAPI, and Streamlit, it features automated data collection, REST API endpoints, and interactive visualizations.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mohammedsaqlain73/stock-data-dashboard/main/preview1.png" alt="Dashboard Preview 1" width="45%">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/mohammedsaqlain73/stock-data-dashboard/main/preview2.png" alt="Dashboard Preview 2" width="45%">
-</p>
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Preview 1](https://raw.githubusercontent.com/mohammedsaqlain73/stock-data-dashboard/main/preview1.png) | ![Preview 2](https://raw.githubusercontent.com/mohammedsaqlain73/stock-data-dashboard/main/preview2.png) |
+
 
 
 🔗 **Live Demo:** [https://stock-data-dashboard-jarnox.streamlit.app/](https://stock-data-dashboard-jarnox.streamlit.app/)
@@ -35,17 +34,25 @@ Python 3.11 · FastAPI · Streamlit · SQLite · yfinance · Pandas · Plotly
 
 ---
 
-## 📁 Structure
-📦 stock-data-dashboard
-│
-├── api.py              # FastAPI backend for stock data API
-├── app.py              # Streamlit dashboard UI
-├── database.py         # SQLite database management
-├── data_processor.py   # Fetching, cleaning, and metrics computation
-├── main.py             # Entry/test file
-├── requirements.txt    # Python dependencies
-├── readme.md           # Documentation (this file)
-└── .gitignore          # Ignore venv & temp files
+
+---
+
+### 🧩 File Details
+
+| File | Description |
+|------|--------------|
+| **`api.py`** | Contains all FastAPI routes — serves stock data and analytics as JSON. |
+| **`app.py`** | Streamlit web app for visualizing market data interactively. |
+| **`data_processor.py`** | Fetches NSE/BSE stock data using `yfinance`, calculates moving averages, volatility, etc. |
+| **`database.py`** | Manages SQLite storage for company info and historical stock data. |
+| **`main.py`** | Simple entry/test script to validate setup. |
+| **`requirements.txt`** | Lists dependencies required for local and cloud deployment. |
+| **`preview1.png`, `preview2.png`** | Images used in README for live demo preview. |
+| **`venv/`** | Local virtual environment (not included in GitHub repo). |
+
+---
+
+
 
 
 ---
